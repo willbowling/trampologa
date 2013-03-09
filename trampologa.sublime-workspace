@@ -1,0 +1,236 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"sim",
+				"simulateScan"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"fetch",
+				"Fetch: Manage"
+			],
+			[
+				"tidy",
+				"TidyHTML"
+			],
+			[
+				"wrap",
+				"Word Wrap: Toggle"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"isntal",
+				"Package Control: Install Package"
+			],
+			[
+				"intsl",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/willbowling/Library/Application Support/Sublime Text 3/Packages/User/Fetch.sublime-settings",
+		"/Users/willbowling/sandbox/hd-dev/pdf.js/build/generic/web/viewer.js",
+		"/Users/willbowling/sandbox/pdf.js/build/generic/web/viewer.js",
+		"/Users/willbowling/sandbox/pdf.js/examples/helloworld/hello.js",
+		"/Users/willbowling/sandbox/pdf.js/web/viewer.js",
+		"/Users/willbowling/sandbox/pdf.js/build/generic/web/viewer.html",
+		"/Users/willbowling/sandbox/bear-app-redesign-prototype/index.html",
+		"/Users/willbowling/sandbox/hd-dev/pdf.js/build/generic/web/viewer.html",
+		"/Users/willbowling/sandbox/hd-dev/index.html",
+		"/usr/bin/host",
+		"/Users/willbowling/sandbox/hd-dev/CalculatorRho/build.yml",
+		"/Users/willbowling/sandbox/bear-app-redesign-prototype/js/index.js",
+		"/Users/willbowling/sandbox/bear-app-redesign-prototype/css/theme.css",
+		"/Users/willbowling/.bash_profile",
+		"/Users/willbowling/.zshrc",
+		"/Users/willbowling/.rvm/log/ruby-2.0.0-p0/yaml/configure.log",
+		"/Users/willbowling/.rvm/log/ruby-2.0.0-p0/yaml/make.log",
+		"/Users/willbowling/sandbox/bear-app-redesign-prototype/css/index.css",
+		"/Users/willbowling/Dropbox/Personal/gitconfig.txt",
+		"/Users/willbowling/.gitconfig",
+		"/Users/willbowling/Dropbox/Personal/config",
+		"/Users/willbowling/Dropbox/The Home Depot/NextGen First Phone/Projects/bear-app-redesign-prototype/index.html",
+		"/Users/willbowling/Dropbox/The Home Depot/NextGen First Phone/Projects/bear-app-redesign-prototype/js/index.js",
+		"/Users/willbowling/Dropbox/The Home Depot/NextGen First Phone/Projects/bear-app-redesign-prototype/css/theme.css",
+		"/Users/willbowling/Dropbox/Personal/-gitignore",
+		"/Users/willbowling/.bash_history"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"globalScope",
+			"var globalScope",
+			"globalScope",
+			"\n		",
+			"Simulate Scan",
+			"btn btn-warning",
+			"disabled",
+			"	simulateScan: function () {\n",
+			"display",
+			"height",
+			"width 2",
+			"zoom",
+			"btn.right",
+			"250/70/abstract",
+			"http://lorempixel.com/g/200/100/abstract",
+			"div"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 100.0
+	},
+	"project": "/Users/willbowling/sandbox/trampologa/trampologa.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"~/sandbox/calc.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 211.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
