@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"backg",
+				"background-repeat"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
 				"sim",
 				"simulateScan"
 			]
@@ -11,13 +39,37 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2767,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/screen.scss",
+			"settings":
+			{
+				"buffer_size": 1152,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
 			[
 				"instal",
 				"Package Control: Install Package"
@@ -51,7 +103,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 593.0
+		"width": 568.0
 	},
 	"console":
 	{
@@ -71,6 +123,10 @@
 	},
 	"file_history":
 	[
+		"/Users/willbowling/sandbox/trampologa/config.rb",
+		"/Users/willbowling/sandbox/trampologa/README.md",
+		"/Users/willbowling/sandbox/trampologa/crossdomain.xml",
+		"/Users/willbowling/sandbox/trampologa/humans.txt",
 		"/Users/willbowling/Library/Application Support/Sublime Text 3/Packages/User/Fetch.sublime-settings",
 		"/Users/willbowling/sandbox/hd-dev/pdf.js/build/generic/web/viewer.js",
 		"/Users/willbowling/sandbox/pdf.js/build/generic/web/viewer.js",
@@ -114,6 +170,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"link",
+			"section",
 			"globalScope",
 			"var globalScope",
 			"globalScope",
@@ -147,8 +205,65 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2767,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1626,
+								1626
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/screen.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1152,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								804,
+								804
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -198,6 +313,10 @@
 		"height": 0.0,
 		"selected_items":
 		[
+			[
+				"scren",
+				"sass/screen.scss"
+			]
 		],
 		"width": 0.0
 	},
@@ -227,7 +346,7 @@
 	"show_minimap": true,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 211.0,
 	"status_bar_visible": true,
 	"template_settings":
