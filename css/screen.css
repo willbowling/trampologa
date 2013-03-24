@@ -2,9 +2,61 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
 body {
   text-align: center;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   background: #1c1e20;
   background: -moz-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
   background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #555a5f), color-stop(100%, #1c1e20));
@@ -12,30 +64,101 @@ body {
   background: -o-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
   background: -ms-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
   background: radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
-  background-color: #2b2b2b; }
+  background-color: #2b2b2b;
+  padding: 50px 0 30px;
+  height: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-weight: normal;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1;
+  color: #222;
+  position: relative;
+  -webkit-font-smoothing: antialiased; }
+  body .row {
+    width: 1008px;
+    max-width: 100%;
+    min-width: 768px;
+    margin: 0 auto; }
+  body .top-bar.fixed {
+    z-index: 1000; }
+  body .fixed {
+    width: 100%;
+    left: 0;
+    position: fixed;
+    top: 0;
+    z-index: 99; }
+  body .top-bar {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.95);
+    -webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    -moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+    height: 60px;
+    line-height: 50px;
+    margin: -50px 0 0;
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 1000; }
+    body .top-bar h1 {
+      float: left;
+      font-size: 2.1em;
+      text-transform: uppercase; }
+    body .top-bar .logo {
+      float: left;
+      margin-top: 10px; }
 
-.wrapper .content {
-  width: 960px;
-  text-align: left;
-  padding: 10px;
-  margin: 20px auto;
-  color: #fff; }
-  .wrapper .content header {
+.wrapper {
+  position: relative;
+  z-index: 10; }
+  .wrapper .content {
+    width: 960px;
+    text-align: left;
+    padding: 10px;
+    margin: 20px auto;
+    color: #fff;
     background: rgba(255, 255, 255, 0.3);
     display: block;
-    height: 150px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     border-radius: 10px;
+    -webkit-box-shadow: 0 0 7px black;
+    -moz-box-shadow: 0 0 7px black;
+    box-shadow: 0 0 7px black;
     padding: 10px; }
+    .wrapper .content p {
+      margin: 5px 10px 20px;
+      line-height: 1.2em; }
     .wrapper .content header h1 {
-      float: left;
-      padding-left: 20px; }
+      font-size: 2em;
+      padding-left: 20px;
+      text-shadow: 0 0 3px #333333; }
     .wrapper .content header img {
       float: left;
       width: 230px; }
     .wrapper .content header p {
       clear: left;
       margin-left: 300px; }
+    .wrapper .content header nav {
+      clear: both;
+      padding: 10px 5px;
+      margin: 100px -20px 10px;
+      background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ff0000), color-stop(100%, #333333));
+      background-image: -webkit-linear-gradient(#ff0000, #333333);
+      background-image: -moz-linear-gradient(#ff0000, #333333);
+      background-image: -o-linear-gradient(#ff0000, #333333);
+      background-image: linear-gradient(#ff0000, #333333); }
+      .wrapper .content header nav ul {
+        float: right; }
+        .wrapper .content header nav ul li {
+          display: inline;
+          padding: 3px 10px; }
+    .wrapper .content .intro {
+      float: left;
+      width: 650px; }
+    .wrapper .content .aside1 {
+      float: right;
+      width: 260px; }
