@@ -90,6 +90,9 @@
 	z-index: 10;
 	background: url(../images/jshim.png) left -10px no-repeat;
 // todo: set up media query to take this out;
+	h3, h4, h5 {
+		clear: both;
+	}
 	h3 {
 		font-size: 1.7em;
 		border-bottom: 1px solid red;
@@ -192,5 +195,18 @@
 	}
 	footer {
 		color: #fff;
+		h3 {
+			border: none;
+		}
+	}
+	.fl-left {
+		float:left;
+		clear: both;
+		margin: 0 10px 10px 10px;
+	}
+	.fl-right {
+		float:right;
+		clear: both;
+		margin: 0 10px 10px 10px;
 	}
 }
