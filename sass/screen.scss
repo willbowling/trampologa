@@ -40,6 +40,10 @@
 	position: relative;
 	-webkit-font-smoothing: antialiased;
 	em {font-style: italic;}
+	a:link, a:visited {
+		color: #fff;
+		text-decoration: none;
+	}
 	.row {
 		width: 1008px;
 		max-width: 100%;
@@ -86,6 +90,15 @@
 	z-index: 10;
 	background: url(../images/jshim.png) left -10px no-repeat;
 // todo: set up media query to take this out;
+	h3 {
+		font-size: 1.7em;
+		border-bottom: 1px solid red;
+		padding-bottom: 5px;
+		padding-left: 20px;
+		margin-left: -10px;
+		margin-right: -10px;
+		margin-bottom: 10px;
+	}
 	.content {
 		width: 960px;
 		text-align: left;
@@ -150,13 +163,34 @@
 		.intro {
 			float: left;
 			width: 650px;
+			.product {
+				margin-bottom: 20px;
+			}
 			.main-vid {
-				margin-left:60px;
+				margin:0 20px 10px;
+				float: right;
+			}
+			h4 {
+				text-align: right;
+				font-size: 1.7em;
+				clear: both;
+				color: red;
 			}
 		}
 		.aside1 {
 			float: right;
 			width: 260px;
+			text-align: center;
+			img {
+				width: 170px;
+				margin: 0 auto;
+			}
+			p {
+				text-align: left;
+			}
 		}
+	}
+	footer {
+		color: #fff;
 	}
 }

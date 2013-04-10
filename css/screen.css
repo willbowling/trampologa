@@ -69,6 +69,9 @@ body {
   -webkit-font-smoothing: antialiased; }
   body em {
     font-style: italic; }
+  body a:link, body a:visited {
+    color: #fff;
+    text-decoration: none; }
   body .row {
     width: 1008px;
     max-width: 100%;
@@ -105,6 +108,14 @@ body {
   position: relative;
   z-index: 10;
   background: url(../images/jshim.png) left -10px no-repeat; }
+  .wrapper h3 {
+    font-size: 1.7em;
+    border-bottom: 1px solid red;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px; }
   .wrapper .content {
     width: 960px;
     text-align: left;
@@ -160,8 +171,24 @@ body {
     .wrapper .content .intro {
       float: left;
       width: 650px; }
+      .wrapper .content .intro .product {
+        margin-bottom: 20px; }
       .wrapper .content .intro .main-vid {
-        margin-left: 60px; }
+        margin: 0 20px 10px;
+        float: right; }
+      .wrapper .content .intro h4 {
+        text-align: right;
+        font-size: 1.7em;
+        clear: both;
+        color: red; }
     .wrapper .content .aside1 {
       float: right;
-      width: 260px; }
+      width: 260px;
+      text-align: center; }
+      .wrapper .content .aside1 img {
+        width: 170px;
+        margin: 0 auto; }
+      .wrapper .content .aside1 p {
+        text-align: left; }
+  .wrapper footer {
+    color: #fff; }
