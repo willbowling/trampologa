@@ -185,7 +185,7 @@
 			width: 260px;
 			text-align: center;
 			img {
-				width: 170px;
+				width: 260px;
 				margin: 0 auto;
 			}
 			p {
@@ -195,8 +195,15 @@
 	}
 	footer {
 		color: #fff;
+		width: 960px;
+		// display: none;
+		text-align: center !important;
 		h3 {
 			border: none;
+		}
+		img.purchase {
+			margin: 5px 39%;
+
 		}
 	}
 	.fl-left {
@@ -206,7 +213,115 @@
 	}
 	.fl-right {
 		float:right;
-		clear: both;
+		// clear: both;
 		margin: 0 10px 10px 10px;
 	}
+}
+
+/**
+ * Author:      Matt Hinchliffe <www.maketea.co.uk>
+ * Modified:    03/11/2012
+ * Description: Simple jQuery slideshow
+ * Example:
+ * <div class="slideshow">
+ *     <ul class="carousel">
+ *         <li class="slide"><a href="#">Option 1</a></li>
+ *         <li class="slide"><a href="#">Option 2</a></li>
+ *     </ul>
+ * </div>
+ */
+
+/* slides */
+
+.slideshow {
+  position: relative;
+  margin: 0 10px 1em;
+  h4 {
+  	position: absolute;
+  	color: red !important;
+  	@include text-shadow(0 0 5px #fff);
+  	font-size: 2.7em !important;
+  	&.slide1 {
+	  	top:10px;
+	  	right: 40px;
+  	}
+  	.txt1 {
+  		bottom: 10px;
+  		left: 40px;
+  	}
+  	&.slide2 {
+	  	bottom:10px;
+	  	right: 40px;
+  	}
+  }
+  a {
+    font-size: .75em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #fff;
+    background: #666;
+    &:hover {
+      background-color: #333;
+    }
+  }
+  .selected a {
+    background-color: #333;
+  }
+}
+
+.carousel {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.slide {
+  z-index: 100;
+  img {
+    display: block;
+  }
+}
+
+/* pagination */
+
+.slides-pagination {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 110;
+  li {
+    display: inline;
+  }
+  a {
+    display: block;
+    float: left;
+    width: 2em;
+    margin-right: 5px;
+  }
+}
+
+/* skip */
+
+.slides-next, .slides-prev {
+  position: absolute;
+  top: 50%;
+  margin-top: -1em;
+  padding: 0 .5em;
+  z-index: 120;
+}
+
+.slides-next {
+  right: 0;
+}
+
+.slides-prev {
+  left: 0;
+}
+
+.slides-next.disabled, .slides-prev.disabled {
+  opacity: .5;
+  cursor: auto;
 }

@@ -188,19 +188,108 @@ body {
       width: 260px;
       text-align: center; }
       .wrapper .content .aside1 img {
-        width: 170px;
+        width: 260px;
         margin: 0 auto; }
       .wrapper .content .aside1 p {
         text-align: left; }
   .wrapper footer {
-    color: #fff; }
+    color: #fff;
+    width: 960px;
+    text-align: center !important; }
     .wrapper footer h3 {
       border: none; }
+    .wrapper footer img.purchase {
+      margin: 5px 39%; }
   .wrapper .fl-left {
     float: left;
     clear: both;
     margin: 0 10px 10px 10px; }
   .wrapper .fl-right {
     float: right;
-    clear: both;
     margin: 0 10px 10px 10px; }
+
+/**
+ * Author:      Matt Hinchliffe <www.maketea.co.uk>
+ * Modified:    03/11/2012
+ * Description: Simple jQuery slideshow
+ * Example:
+ * <div class="slideshow">
+ *     <ul class="carousel">
+ *         <li class="slide"><a href="#">Option 1</a></li>
+ *         <li class="slide"><a href="#">Option 2</a></li>
+ *     </ul>
+ * </div>
+ */
+/* slides */
+.slideshow {
+  position: relative;
+  margin: 0 10px 1em; }
+  .slideshow h4 {
+    position: absolute;
+    color: red !important;
+    text-shadow: 0 0 5px white;
+    font-size: 2.7em !important; }
+    .slideshow h4.slide1 {
+      top: 10px;
+      right: 40px; }
+    .slideshow h4 .txt1 {
+      bottom: 10px;
+      left: 40px; }
+    .slideshow h4.slide2 {
+      bottom: 10px;
+      right: 40px; }
+  .slideshow a {
+    font-size: .75em;
+    line-height: 2em;
+    text-decoration: none;
+    color: #fff;
+    background: #666; }
+    .slideshow a:hover {
+      background-color: #333; }
+  .slideshow .selected a {
+    background-color: #333; }
+
+.carousel {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+.slide {
+  z-index: 100; }
+  .slide img {
+    display: block; }
+
+/* pagination */
+.slides-pagination {
+  position: absolute;
+  bottom: 1em;
+  left: 1em;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 110; }
+  .slides-pagination li {
+    display: inline; }
+  .slides-pagination a {
+    display: block;
+    float: left;
+    width: 2em;
+    margin-right: 5px; }
+
+/* skip */
+.slides-next, .slides-prev {
+  position: absolute;
+  top: 50%;
+  margin-top: -1em;
+  padding: 0 .5em;
+  z-index: 120; }
+
+.slides-next {
+  right: 0; }
+
+.slides-prev {
+  left: 0; }
+
+.slides-next.disabled, .slides-prev.disabled {
+  opacity: .5;
+  cursor: auto; }
