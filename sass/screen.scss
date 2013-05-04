@@ -110,7 +110,7 @@
 		margin: 10px auto 0;
 		// background-color: #fff;		
 		color: #fff;
-		background: rgba(255,255,255, 0.3);
+		background: rgba(255,255,255, 0.2);
 		display: block;
 		// height: 150px;
 		@include border-radius(10px);
@@ -169,18 +169,53 @@
 			.product {
 				margin-bottom: 20px;
 			}
+			img {
+				@include border-radius(10px 0 10px 0);
+				@include box-shadow(2px 2px 7px #333);
+				border: 1px solid #666
+			}
+
 			.main-vid {
 				margin:0 20px 10px;
 				float: right;
 			}
+			.media-vid {
+				margin: 10px;
+				@include box-shadow(3px 3px 5px #000);
+			}
 			h4 {
-				text-align: right;
+				text-align: left;
 				font-size: 1.7em;
 				clear: both;
-				color: red;
+				color: yellow;
+				padding-left: 10px;
+				&.pricing {
+					text-align: center;
+					font-style: italic;
+					color: yellow;
+					@include text-shadow(1px 1px 3px yellow);
+				}
+
+			}
+			ul.pricing {
+				padding-left: 10px;
+				margin: 20px;
+				li {list-style: disc;}
+			}
+			.price {
+				color: yellow;
+				font-weight: 700;
+				font-size: larger;
+				letter-spacing: 1px;
 			}
 		}
 		.aside1 {
+			img {
+				@include border-radius(10px 0 10px 0);
+				@include box-shadow(2px 2px 7px #333);
+				border: 1px solid #666;
+			}
+
 			float: right;
 			width: 260px;
 			text-align: center;
@@ -218,6 +253,8 @@
 	}
 }
 
+
+
 /**
  * Author:      Matt Hinchliffe <www.maketea.co.uk>
  * Modified:    03/11/2012
@@ -236,11 +273,17 @@
 .slideshow {
   position: relative;
   margin: 0 10px 1em;
+  width: 650px;
+  height: 433px;
+  overflow: hidden;
   h4 {
-  	position: absolute;
-  	color: red !important;
+  	// position: absolute;
+  	float: right;
+  	color: #fff !important;
   	@include text-shadow(0 0 5px #fff);
   	font-size: 2.7em !important;
+  	width: 630px;
+  	z-index: 130;
   	&.slide1 {
 	  	top:10px;
 	  	right: 40px;
@@ -254,6 +297,8 @@
 	  	right: 40px;
   	}
   }
+  img {z-index: 110;
+  	float: left;}
   a {
     font-size: .75em;
     line-height: 2em;

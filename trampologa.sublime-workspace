@@ -79,7 +79,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 12021,
+				"buffer_size": 13588,
 				"line_ending": "Unix"
 			}
 		},
@@ -100,27 +100,10 @@
 			}
 		},
 		{
-			"file": "/Users/willbowling/Downloads/i-like-robots-jQuery-Slideshow-6fc5b67/index.html",
-			"settings":
-			{
-				"buffer_size": 10013,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "doc/copy from client/About the inventor.txt",
-			"settings":
-			{
-				"buffer_size": 1299,
-				"line_ending": "Unix",
-				"name": "About the inventor"
-			}
-		},
-		{
 			"file": "sass/screen.scss",
 			"settings":
 			{
-				"buffer_size": 6016,
+				"buffer_size": 6300,
 				"line_ending": "Unix"
 			}
 		}
@@ -128,9 +111,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 107.0,
+		"height": 392.0,
 		"selected_items":
 		[
+			[
+				"php",
+				"Set Syntax: PHP"
+			],
+			[
+				"wra",
+				"Word Wrap: Toggle"
+			],
 			[
 				"insta",
 				"Package Control: Install Package"
@@ -146,10 +137,6 @@
 			[
 				"tidy",
 				"TidyHTML"
-			],
-			[
-				"wra",
-				"Word Wrap: Toggle"
 			],
 			[
 				"ind",
@@ -192,7 +179,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 593.0
+		"width": 567.0
 	},
 	"console":
 	{
@@ -212,6 +199,11 @@
 	},
 	"file_history":
 	[
+		"/Users/willbowling/sandbox/trampologa/doc/copy from client/About the inventor.txt",
+		"/Users/willbowling/Downloads/i-like-robots-jQuery-Slideshow-6fc5b67/index.html",
+		"/Users/willbowling/sandbox/trampologa/includes/head.php",
+		"/Users/willbowling/sandbox/trampologa/includes/nav.php",
+		"/Users/willbowling/Documents/willbowling.com/portfolio/index.php",
 		"/Users/willbowling/Dropbox/The Home Depot/config.xml",
 		"/Users/willbowling/Documents/workspace/HTMLApplications/Development/motorola-rho-port/src/Rho/ConsolidatedCalculator/public/index.html",
 		"/Users/willbowling/node/server.js",
@@ -313,7 +305,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -348,26 +340,26 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 12021,
+						"buffer_size": 13588,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8297,
-								8507
+								11799,
+								11814
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true,
-							"word_wrap": true
+							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 2083.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -396,7 +388,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 879.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -414,8 +406,8 @@
 						"selection":
 						[
 							[
-								3467,
-								3253
+								3487,
+								3487
 							]
 						],
 						"settings":
@@ -425,82 +417,26 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 501.0,
+						"translation.y": 985.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "/Users/willbowling/Downloads/i-like-robots-jQuery-Slideshow-6fc5b67/index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 10013,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								218,
-								321
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 246.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "doc/copy from client/About the inventor.txt",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1299,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1299,
-								1299
-							]
-						],
-						"settings":
-						{
-							"auto_name": "About the inventor",
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 6,
 					"file": "sass/screen.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6016,
+						"buffer_size": 6300,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5363,
-								5363
+								3037,
+								3037
 							]
 						],
 						"settings":
@@ -510,7 +446,7 @@
 							"word_wrap": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3887.0,
+						"translation.y": 1529.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -524,7 +460,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 33.0
 	},
 	"layout":
 	{
@@ -578,7 +514,7 @@
 		[
 			[
 				"",
-				"~/sandbox/calc.sublime-project"
+				"~/Documents/workspace/met.sublime-project"
 			]
 		],
 		"width": 380.0

@@ -124,7 +124,7 @@ body {
     padding: 10px;
     margin: 10px auto 0;
     color: #fff;
-    background: rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.2);
     display: block;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -175,18 +175,59 @@ body {
       width: 650px; }
       .wrapper .content .intro .product {
         margin-bottom: 20px; }
+      .wrapper .content .intro img {
+        -webkit-border-radius: 10px 0 10px 0;
+        -moz-border-radius: 10px 0 10px 0;
+        -ms-border-radius: 10px 0 10px 0;
+        -o-border-radius: 10px 0 10px 0;
+        border-radius: 10px 0 10px 0;
+        -webkit-box-shadow: 2px 2px 7px #333333;
+        -moz-box-shadow: 2px 2px 7px #333333;
+        box-shadow: 2px 2px 7px #333333;
+        border: 1px solid #666666; }
       .wrapper .content .intro .main-vid {
         margin: 0 20px 10px;
         float: right; }
+      .wrapper .content .intro .media-vid {
+        margin: 10px;
+        -webkit-box-shadow: 3px 3px 5px black;
+        -moz-box-shadow: 3px 3px 5px black;
+        box-shadow: 3px 3px 5px black; }
       .wrapper .content .intro h4 {
-        text-align: right;
+        text-align: left;
         font-size: 1.7em;
         clear: both;
-        color: red; }
+        color: yellow;
+        padding-left: 10px; }
+        .wrapper .content .intro h4.pricing {
+          text-align: center;
+          font-style: italic;
+          color: yellow;
+          text-shadow: 1px 1px 3px yellow; }
+      .wrapper .content .intro ul.pricing {
+        padding-left: 10px;
+        margin: 20px; }
+        .wrapper .content .intro ul.pricing li {
+          list-style: disc; }
+      .wrapper .content .intro .price {
+        color: yellow;
+        font-weight: 700;
+        font-size: larger;
+        letter-spacing: 1px; }
     .wrapper .content .aside1 {
       float: right;
       width: 260px;
       text-align: center; }
+      .wrapper .content .aside1 img {
+        -webkit-border-radius: 10px 0 10px 0;
+        -moz-border-radius: 10px 0 10px 0;
+        -ms-border-radius: 10px 0 10px 0;
+        -o-border-radius: 10px 0 10px 0;
+        border-radius: 10px 0 10px 0;
+        -webkit-box-shadow: 2px 2px 7px #333333;
+        -moz-box-shadow: 2px 2px 7px #333333;
+        box-shadow: 2px 2px 7px #333333;
+        border: 1px solid #666; }
       .wrapper .content .aside1 img {
         width: 260px;
         margin: 0 auto; }
@@ -223,12 +264,17 @@ body {
 /* slides */
 .slideshow {
   position: relative;
-  margin: 0 10px 1em; }
+  margin: 0 10px 1em;
+  width: 650px;
+  height: 433px;
+  overflow: hidden; }
   .slideshow h4 {
-    position: absolute;
-    color: red !important;
+    float: right;
+    color: #fff !important;
     text-shadow: 0 0 5px white;
-    font-size: 2.7em !important; }
+    font-size: 2.7em !important;
+    width: 630px;
+    z-index: 130; }
     .slideshow h4.slide1 {
       top: 10px;
       right: 40px; }
@@ -238,6 +284,9 @@ body {
     .slideshow h4.slide2 {
       bottom: 10px;
       right: 40px; }
+  .slideshow img {
+    z-index: 110;
+    float: left; }
   .slideshow a {
     font-size: .75em;
     line-height: 2em;
