@@ -57,7 +57,7 @@
                         <h3>Power Trampologa - Pricing and Availability</h3>
                         <h4>A Priceless Full Body Gym!</h4>
                         <ul class="pricing">
-                            <li>Standard Unit - <span class="price">$525</span> <em>plus shipping</em> (69"X 33"X5") approx the size of an exercise mat.. 35 lbs</li>
+                            <li>Standard Unit - <span class="price">$599</span> <em>plus shipping</em> (69"X 33"X5") approx the size of an exercise mat.. 35 lbs</li>
                             <li>Deluxe unit - <span class="price">$675</span> (same) 45 lbs</li>
                         </ul>
                         
@@ -68,14 +68,13 @@
                         <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
                             <input type="hidden" name="cmd" value="_s-xclick">
                             <input type="hidden" name="hosted_button_id" value="RXN2LCJU7LUWE">
-                            <table>
-                                <tr><td><input type="hidden" name="on0" value="Package"></td></tr><tr><td><select name="os0">
+                            <input type="hidden" name="on0" value="Package">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <select name="os0">
                                 <option value="Standard">Standard $599.00 USD</option>
                                 <option value="Deluxe">Deluxe $675.00 USD</option>
-                            </select> </td></tr>
-                            </table>
-                            <input type="hidden" name="currency_code" value="USD">
-                            <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+                            </select>
+                            <input type="image" class="paypal-btn" src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
                             <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
                         </form>
 

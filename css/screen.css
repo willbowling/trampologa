@@ -232,6 +232,8 @@ body {
         font-weight: 700;
         font-size: larger;
         letter-spacing: 1px; }
+      .wrapper .content .intro input.paypal-btn {
+        margin: 0 20px 10px !important; }
     .wrapper .content .aside1 {
       float: right;
       width: 260px;
