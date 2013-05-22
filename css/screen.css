@@ -49,6 +49,19 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
   display: block; }
 
+@font-face {
+  font-family: DroidSans;
+  src: url(DroidSans.ttf);
+  font-weight: 400; }
+
+@font-face {
+  font-family: Downcome;
+  src: url(DOWNCOME.ttf);
+  src: url(DOWNCOME.fon);
+  src: url(DOWNCOME.pbf);
+  src: url(DOWNCOME.pfm);
+  font-weight: 400; }
+
 *, *:before, *:after {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -56,14 +69,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 body {
   text-align: center;
-  font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: DroidSans, "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
   background: black url(../images/jshim-bg.png) repeat-x top left;
   height: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   font-weight: normal;
   font-style: normal;
   font-size: 16px;
-  line-height: 1;
   color: #222;
   position: relative;
   -webkit-font-smoothing: antialiased; }
@@ -99,19 +111,20 @@ body {
     body .top-bar h1 {
       float: left;
       font-size: 2.1em;
-      text-transform: uppercase; }
+      text-transform: uppercase;
+      font-family: Downcome, Helvetica, Arial, trebuchet, sans-serif; }
     body .top-bar .logo {
       float: left;
       margin-top: 10px; }
 
 .wrapper {
   position: relative;
-  z-index: 10;
-  background: url(../images/jshim.png) left -10px no-repeat; }
+  z-index: 10; }
   .wrapper h3, .wrapper h4, .wrapper h5 {
-    clear: both; }
+    clear: both;
+    font-family: Downcome, Helvetica, Arial, trebuchet, sans-serif; }
   .wrapper h3 {
-    font-size: 1.7em;
+    font-size: 2em;
     border-bottom: 1px solid red;
     padding-bottom: 5px;
     padding-left: 20px;
@@ -138,6 +151,8 @@ body {
     .wrapper .content p {
       margin: 5px 10px 20px;
       line-height: 1.2em; }
+    .wrapper .content header h1, .wrapper .content header h2, .wrapper .content header h3, .wrapper .content header h4 {
+      font-family: Downcome, Helvetica, Arial, trebuchet, sans-serif; }
     .wrapper .content header h1 {
       font-size: 2em;
       padding: 20px 10px 10px;
@@ -192,7 +207,8 @@ body {
         margin: 10px;
         -webkit-box-shadow: 3px 3px 5px black;
         -moz-box-shadow: 3px 3px 5px black;
-        box-shadow: 3px 3px 5px black; }
+        box-shadow: 3px 3px 5px black;
+        vertical-align: top; }
       .wrapper .content .intro h4 {
         text-align: left;
         font-size: 1.7em;
@@ -237,12 +253,11 @@ body {
         text-align: left; }
   .wrapper footer {
     color: #fff;
-    width: 960px;
     text-align: center !important; }
     .wrapper footer h3 {
       border: none; }
     .wrapper footer img.purchase {
-      margin: 5px 39%; }
+      margin: 5px auto; }
   .wrapper .fl-left {
     float: left;
     clear: both;

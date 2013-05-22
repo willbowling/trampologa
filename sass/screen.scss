@@ -6,6 +6,21 @@
  @import "compass/reset";
  @import "compass/css3";
 
+@font-face {
+    font-family: DroidSans;
+    src: url(DroidSans.ttf);
+    font-weight:400;
+}
+@font-face {
+    font-family: Downcome;
+    src: url(DOWNCOME.ttf);
+    src: url(DOWNCOME.fon);
+    src: url(DOWNCOME.pbf);
+    src: url(DOWNCOME.pfm);
+    font-weight:400;
+}
+
+
 *, *:before, *:after {
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
@@ -17,7 +32,9 @@
 	// background: url(http://withresolution.com/series/1006/Black-Perforated-Leather-Seat-Texture.jpg) top left repeat-y;
 	// @include background-size(150%);
 	// font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	// font-family: "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+	font-family: DroidSans, "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+
 	background: #000 url(../images/jshim-bg.png) repeat-x top left;
 	// background: #1c1e20;
 	// background: -moz-radial-gradient(center, circle cover, #555a5f 0%, #1c1e20 100%);
@@ -35,7 +52,7 @@
 	font-weight: normal;
 	font-style: normal;
 	font-size: 16px;
-	line-height: 1;
+	// line-height: 1.8em;
 	color: #222;
 	position: relative;
 	-webkit-font-smoothing: antialiased;
@@ -75,6 +92,7 @@
 			float: left;
 			font-size: 2.1em;
 			text-transform: uppercase;
+			font-family: Downcome, Helvetica, Arial, trebuchet, sans-serif;
 		}
 		.logo {
 			float: left;
@@ -88,13 +106,14 @@
 	// @include background-image(linear-gradient(#aaaaaa, white));
 	position: relative;
 	z-index: 10;
-	background: url(../images/jshim.png) left -10px no-repeat;
+	// background: url(../images/jshim.png) left -10px no-repeat;
 // todo: set up media query to take this out;
 	h3, h4, h5 {
 		clear: both;
+		font-family: Downcome, Helvetica, Arial, trebuchet, sans-serif;
 	}
 	h3 {
-		font-size: 1.7em;
+		font-size: 2em;
 		border-bottom: 1px solid red;
 		padding-bottom: 5px;
 		padding-left: 20px;
@@ -121,6 +140,9 @@
 			line-height: 1.2em;
 		}
 		header {
+			h1, h2, h3, h4 {
+				font-family: Downcome, Helvetica, Arial, trebuchet, sans-serif;
+			}	
 			h1 {
 				// float: left;
 				// margin-left: 250px;
@@ -182,6 +204,7 @@
 			.media-vid {
 				margin: 10px;
 				@include box-shadow(3px 3px 5px #000);
+				vertical-align: top;
 			}
 			h4 {
 				text-align: left;
@@ -232,14 +255,14 @@
 	}
 	footer {
 		color: #fff;
-		width: 960px;
+		// width: 960px;
 		// display: none;
 		text-align: center !important;
 		h3 {
 			border: none;
 		}
 		img.purchase {
-			margin: 5px 39%;
+			margin: 5px auto;
 
 		}
 	}
