@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Will Bowling -- Mobile and Web Designer/Developer -- @willbowlingjr
+    Ben Barrett -- Web Developer -- @afish8ben
+    Jason Darden -- Business Tech and Developer -- 
+
+# THANKS
+
+    Jaimyn
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3, SASS, COMPASS
+    Normalize.css, jQuery, Modernizr

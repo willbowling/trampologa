@@ -72,18 +72,10 @@
 	"buffers":
 	[
 		{
-			"file": "/Users/willbowling/Documents/workspace/IMS/HTMLApplications/Development/motorola-rho-port/src/FirstPhoneWeb/BusinessComponents/MOTO/www/css/layout.rho.css",
+			"file": "www/index.php",
 			"settings":
 			{
-				"buffer_size": 128,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "media.html",
-			"settings":
-			{
-				"buffer_size": 8358,
+				"buffer_size": 8195,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,47 +83,55 @@
 			"file": "sass/screen.scss",
 			"settings":
 			{
-				"buffer_size": 7855,
+				"buffer_size": 10388,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "index.html",
+			"file": "www/includes/slides.php",
 			"settings":
 			{
-				"buffer_size": 14384,
+				"buffer_size": 3524,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "shop.html",
+			"file": "www/physical-therapy.php",
 			"settings":
 			{
-				"buffer_size": 8690,
+				"buffer_size": 3030,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "/Users/willbowling/Documents/workspace/IMS/HTMLApplications/Development/motorola-rho-port/src/Rho/MET/symlink-setup-MET-mac.txt",
+			"file": "www/media.php",
 			"settings":
 			{
-				"buffer_size": 7982,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "physical-therapy.html",
-			"settings":
-			{
-				"buffer_size": 7992,
+				"buffer_size": 3443,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "contact.html",
+			"file": "www/contact.php",
 			"settings":
 			{
-				"buffer_size": 7882,
+				"buffer_size": 2904,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/about.php",
+			"settings":
+			{
+				"buffer_size": 4056,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "www/includes/nav.php",
+			"settings":
+			{
+				"buffer_size": 684,
 				"line_ending": "Unix"
 			}
 		}
@@ -139,15 +139,15 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 87.0,
+		"height": 207.0,
 		"selected_items":
 		[
 			[
-				"wrap",
+				"wra",
 				"Word Wrap: Toggle"
 			],
 			[
-				"wra",
+				"wrap",
 				"Word Wrap: Toggle"
 			],
 			[
@@ -227,6 +227,27 @@
 	},
 	"file_history":
 	[
+		"/Users/willbowling/sandbox/trampologa/www/includes/nav.php",
+		"/Users/willbowling/sandbox/trampologa/www/shop.html",
+		"/Users/willbowling/sandbox/trampologa/www/physical-therapy.html",
+		"/Users/willbowling/sandbox/trampologa/www/media.html",
+		"/Users/willbowling/sandbox/trampologa/www/contact.html",
+		"/Users/willbowling/sandbox/trampologa/www/includes/scripts.php",
+		"/Users/willbowling/sandbox/trampologa/www/includes/sidebar.php",
+		"/Users/willbowling/sandbox/trampologa/www/includes/footer.php",
+		"/Users/willbowling/Downloads/Slides-SlidesJS-3/examples/playing/index.html",
+		"/Users/willbowling/sandbox/trampologa/sass/screen.scss",
+		"/Users/willbowling/sandbox/trampologa/www/includes/head.php",
+		"/Users/willbowling/sandbox/trampologa/www/includes/slides.php",
+		"/Users/willbowling/sandbox/trampologa/www/css/bootstrap.min.css",
+		"/Users/willbowling/sandbox/trampologa/js/slideshow.js",
+		"/Users/willbowling/sandbox/trampologa/contact.html",
+		"/Users/willbowling/sandbox/trampologa/physical-therapy.html",
+		"/Users/willbowling/sandbox/trampologa/index.html",
+		"/Users/willbowling/sandbox/trampologa/shop.html",
+		"/Users/willbowling/sandbox/trampologa/media.html",
+		"/Users/willbowling/Documents/workspace/IMS/HTMLApplications/Development/motorola-rho-port/src/FirstPhoneWeb/BusinessComponents/MOTO/www/css/layout.rho.css",
+		"/Users/willbowling/Documents/workspace/IMS/HTMLApplications/Development/motorola-rho-port/src/Rho/MET/symlink-setup-MET-mac.txt",
 		"/Users/willbowling/Documents/IISExpress/config/applicationhost.config",
 		"/Users/willbowling/sandbox/trampologa/doc/copy from client/About the inventor.txt",
 		"/Users/willbowling/Downloads/i-like-robots-jQuery-Slideshow-6fc5b67/index.html",
@@ -289,6 +310,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"downcome",
+			"font-family",
+			"html",
+			"selecte",
+			"glyphicons",
+			"halfling",
+			"pagination",
+			"<li class=\"slide\">",
+			"options",
+			"opts",
 			"/Users/willbowling/Documents/workspace/IMS/HTMLApplications/Development/motorola-rho-port/src/Rho",
 			"/Users/willbowling/Documents",
 			"mklink /D",
@@ -351,110 +382,109 @@
 	"groups":
 	[
 		{
-			"selected": 5,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/willbowling/Documents/workspace/IMS/HTMLApplications/Development/motorola-rho-port/src/FirstPhoneWeb/BusinessComponents/MOTO/www/css/layout.rho.css",
+					"file": "www/index.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 128,
+						"buffer_size": 8195,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								128,
-								128
+								2370,
+								2370
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/CSS/CSS.tmLanguage"
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 282.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "media.html",
+					"file": "sass/screen.scss",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8358,
+						"buffer_size": 10388,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4332,
-								4332
+								4240,
+								4240
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true,
-							"word_wrap": false
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 828.0,
+						"translation.y": 2268.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "sass/screen.scss",
+					"file": "www/includes/slides.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7855,
+						"buffer_size": 3524,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2081,
-								2081
+								1243,
+								1243
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/SCSS/SCSS.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"word_wrap": false
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 690.0,
+						"translation.y": 63.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "index.html",
+					"file": "www/physical-therapy.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 14384,
+						"buffer_size": 3030,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								10268,
-								10358
+								2981,
+								2992
 							]
 						],
 						"settings":
@@ -464,26 +494,26 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2242.0,
+						"translation.y": 220.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "shop.html",
+					"file": "www/media.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 8690,
+						"buffer_size": 3443,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								467,
-								467
+								3394,
+								3394
 							]
 						],
 						"settings":
@@ -493,34 +523,35 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 237.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 5,
-					"file": "/Users/willbowling/Documents/workspace/IMS/HTMLApplications/Development/motorola-rho-port/src/Rho/MET/symlink-setup-MET-mac.txt",
+					"file": "www/contact.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7982,
+						"buffer_size": 2904,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								722,
-								722
+								2855,
+								2855
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage",
-							"word_wrap": false
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 3.0,
+						"translation.x": 44.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -528,58 +559,58 @@
 				},
 				{
 					"buffer": 6,
-					"file": "physical-therapy.html",
+					"file": "www/about.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7992,
+						"buffer_size": 4056,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4102,
-								4102
+								3209,
+								3209
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 972.0,
+						"translation.x": 89.0,
+						"translation.y": 186.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 7,
-					"file": "contact.html",
+					"file": "www/includes/nav.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7882,
+						"buffer_size": 684,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3992,
-								3992
+								447,
+								447
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 844.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
